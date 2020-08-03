@@ -54,6 +54,16 @@ function showTime(seconds){
     
 }
 
+five.addEventListener("click",function () {
+    return timer(300);
+
+})
+
+half.addEventListener("click",function () {
+    return timer(1200);
+
+})
+
 start.addEventListener("click",function() { 
     count.innerHTML++;
     
@@ -95,15 +105,7 @@ useCounter();
 
 
 
-five.addEventListener("click",function () {
-    return timer(300);
 
-})
-
-half.addEventListener("click",function () {
-    return timer(1200);
-
-})
 
 
 
